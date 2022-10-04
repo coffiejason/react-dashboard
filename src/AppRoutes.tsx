@@ -41,7 +41,7 @@ const UserManagement = lazy(() => import("./users/pages/UserManagement"));
 
 const AppRoutes = () => {
   return (
-    <Routes basename={process.env.PUBLIC_URL}>
+    <Routes >
       <Route path="/" element={<Landing />} />
       <PrivateRoute path="admin" element={<Admin />}>
         <PrivateRoute path="/" element={<Home />} />
