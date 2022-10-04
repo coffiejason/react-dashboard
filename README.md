@@ -1,4 +1,4 @@
-<p align="center">
+<!-- <p align="center">
   <a href="https://m6v3l9.github.io/react-material-admin/" rel="noopener" target="_blank"><img width="120" src="https://m6v3l9.github.io/react-material-admin/logo.svg" alt="React Material Admin logo"></a></p>
 </p>
 
@@ -79,4 +79,4 @@ This will automatically open [http://localhost:3000](http://localhost:3000).
 ## License
 
 This project is licensed under the terms of the
-[MIT license](/LICENSE).
+[MIT license](/LICENSE). -->

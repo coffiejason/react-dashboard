@@ -15,15 +15,6 @@ import { Link as RouterLink } from "react-router-dom";
 import { useAuth } from "../../auth/contexts/AuthProvider";
 import LandingLayout from "../components/LandingLayout";
 
-const features = [
-  { name: "Bootstraped with Create React App" },
-  { name: "Components & Themes built on top of Material-UI" },
-  { name: "Data Fetching with React Query" },
-  { name: "Written in TypeScript" },
-  { name: "Real-world examples" },
-  { name: "Best Practices" },
-  { name: "MIT License" },
-];
 
 const Landing = () => {
   const { userInfo } = useAuth();
@@ -53,7 +44,7 @@ const Landing = () => {
               spacing={2}
               justifyContent="center"
             >
-              {/* <Button
+              <Button
                 component="a"
                 href={process.env.REACT_APP_SOURCE_LINK}
                 rel="noopener noreferrer"
@@ -61,7 +52,7 @@ const Landing = () => {
                 variant="outlined"
               >
                 {t("landing.cta.secondary")}
-              </Button> */}
+              </Button>
               {userInfo ? (
                 <Button
                   component={RouterLink}
@@ -82,7 +73,7 @@ const Landing = () => {
             </Stack>
           </Container>
         </Box>
-        {/* <Container sx={{ py: 6 }} maxWidth="md">
+        <Container sx={{ py: 6 }} maxWidth="md">
           <img
             alt="Application demo"
             src={`img/template-${theme.palette.mode}.png`}
@@ -94,7 +85,7 @@ const Landing = () => {
               width: "100%",
             }}
           />
-        </Container> */}
+        </Container>
         {/* <Container sx={{ py: 8 }} maxWidth="md">
           <Stack alignItems="center">
             <Typography
